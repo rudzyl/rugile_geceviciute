@@ -1,0 +1,49 @@
+.list-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_button {
+        display: flex;
+
+        &>* {
+            margin: 5px;
+        }
+    }
+
+    &_car {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_title {
+        font-weight: bold;
+    }
+
+    &_author {
+        color: gray;
+        font-size: 80%;
+        font-style: italic;
+    }
+
+}
+
+.make-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    select,
+    label,
+    input {
+        margin: 0 6px;
+    }
+
+    &.form-group {
+        margin-bottom: 0;
+    }
+}
+
+.paginate-col {
+    margin: 12px 0;
+}
