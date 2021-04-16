@@ -10963,6 +10963,7 @@ a.text-dark:focus {
 
 .list-line_title {
   font-weight: bold;
+  font-style: italic;
 }
 
 .list-line_author {
