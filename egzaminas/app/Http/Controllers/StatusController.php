@@ -42,7 +42,7 @@ class StatusController extends Controller
            'status_name' => ['required', 'min:3', 'max:64'],
        ],
        [
-        'status_name.required' => 'Please enter the name',
+        'status_name.required' => 'Please enter: uzbaigta, neuzbaigta, atideta ar kit.',
         'status_name.min' => 'can not be shorter than 3 symbols'
        ]
 
@@ -92,7 +92,7 @@ class StatusController extends Controller
            'status_name' => ['required', 'min:7', 'max:64']
        ],
        [
-        'status_name.required' => 'Please enter: uzbaigta, neuzbaigta, atideta',
+        'status_name.required' => 'Please enter: uzbaigta, neuzbaigta, atideta ar kit.',
         'status_name.min' => 'can not be shorter than 7 symbols'
        ]
        );

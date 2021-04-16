@@ -106,6 +106,7 @@ class TaskController extends Controller
       $validator = Validator::make($request->all(),
       [
          'task_name' => ['required', 'min:3', 'max:64'],
+         'add_date' => ['required', 'min:3', 'max:64'],
          'task_description' => ['required', 'min:3', 'max:64'],
       ],
      [
