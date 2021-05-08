@@ -17,7 +17,7 @@
                         <div class="form-group">
                             <label>Date:</label>
                             <input type="text" class="form-control" name="add_date" value="{{old('add_date',$task->add_date)}}">
-                            <small class="form-text text-muted">Edit task's name</small>
+                            <small class="form-text text-muted">Edit task's date</small>
                         </div>
                         <div class="form-group">
                             <label>Task description:</label>
